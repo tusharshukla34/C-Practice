@@ -14,6 +14,7 @@ int main()
     // cout<<"Profit you got is :";
     // cout<<sell-cost;
   int a=14;
+  int b=23;
 
 //   cout<<sizeof(int);                         ye size nikalne ke liye 
 //   cout<<numeric_limits<double>::min();       ye limit nikalne ke liye
