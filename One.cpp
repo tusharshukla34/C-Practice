@@ -170,7 +170,12 @@ int main()
 
 // (number>10 && number<20)?cout<<number:cout<<"invalid";
 
-int num =78;
+
+int num;
+
+cout<<"Enter the number between 10 to 20: ";
+cin>>num;
+
 
 (num>10 && num<20 && num%2==0)?cout<<num<<" is Completely divisible by 2":cout<<num<<" is Not divisible by 2";
 
