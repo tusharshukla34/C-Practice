@@ -13,8 +13,10 @@ int main()
     // cin>>cost;
     // cout<<"Profit you got is :";
     // cout<<sell-cost;
-  int a=14;
-  int b=23;
+  int a=11;
+  int b=1;
+
+  cout << (a & b);
 
 //   cout<<sizeof(int);                         ye size nikalne ke liye 
 //   cout<<numeric_limits<double>::min();       ye limit nikalne ke liye
