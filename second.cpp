@@ -84,21 +84,21 @@ int main()
 // If the year is in the future (after the current year), print "Future".
 
 
-int year;
-cout<<"Enter the year: ";
-cin>>year;
-if(year<2025)
-{
-  cout<<"Past";
-}
-else if(year==2025)
-{
-  cout<<"Present year";
-}
-else
-{
-  cout<<"Future";
-}
+// int year;
+// cout<<"Enter the year: ";
+// cin>>year;
+// if(year<2025)
+// {
+//   cout<<"Past";
+// }
+// else if(year==2025)
+// {
+//   cout<<"Present year";
+// }
+// else
+// {
+//   cout<<"Future";
+// }
 
 
 // -------------------           4            -----------------------------------------
@@ -110,9 +110,24 @@ else
 // Between 21 and 30 (inclusive): "Between 21 and 30"
 // Greater than 30: "Greater than 30"
 
-
-
-
-
+// int num;
+// cout<<"Enter a number: ";
+// cin>>num;
+// if(num<10)
+// {
+//   cout<<"Less than 10";
+// }
+// else if(num>=10 && num<=20)
+// {
+//   cout<<"Between 10 and 20";
+// }
+// else if(num>=21 && num<=30)
+// {
+//   cout<<"Between 21 and 30";
+// }
+// else
+// {
+//   cout<<"Greater than 30";
+// }
 
 }

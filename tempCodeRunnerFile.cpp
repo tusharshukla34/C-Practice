@@ -1,9 +1,15 @@
-int num;
-// cout<<"Enter the number: ";
-// cin>>num;
-// if(num%2==0)
+int year;
+// cout<<"Enter the year: ";
+// cin>>year;
+// if(year<2025)
 // {
-//   cout<<"The number is even";
-// } else{
-//   cout<<"The number is odd";
+//   cout<<"Past";
+// }
+// else if(year==2025)
+// {
+//   cout<<"Present year";
+// }
+// else
+// {
+//   cout<<"Future";
 // }
