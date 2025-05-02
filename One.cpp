@@ -171,13 +171,122 @@ int main()
 // (number>10 && number<20)?cout<<number:cout<<"invalid";
 
 
-int num;
 
-cout<<"Enter the number between 10 to 20: ";
-cin>>num;
+// int pass;
+
+// cout<<"Enter the passward: ";
+// cin>>pass;
+// (pass==1234)
+// ?cout<<" cash withdrawl"
+// :
+
+// (
+// cout<<" invalid passward try agin"
+// ,cin>>pass,
+// (pass==1234)?cout<<"cash withdrawl":
+// (
+//  cout<<"ipta",
+//  cin>>pass,
+//  (pass==1234)?cout<<"cash withdrawl":cout<<"card bloked"
+//     )
+// );
 
 
-(num>10 && num<20 && num%2==0)?cout<<num<<" is Completely divisible by 2":cout<<num<<" is Not divisible by 2";
+
+
+// int pass;
+
+// cout<<"Enter the password";
+// cin>>pass;
+// (pass==0363)?cout<<"cash withdrawl":cout<<"invalit pin try "
+
+//   ,cin>>pass,(pass==1963)?cout<<"cash withdrawl":cout<<"Invalid pin try again"
+    
+//       ,cin>>pass,(pass==1963)?cout<<"cash withdrawl":cout<<"Card Blocked";
+
+
+
+
+
+
+
+
+// conditional statement
+
+// int month;
+// cout<<"enter the month between 1-12";
+// cin>>month;
+// if(month==1 || month==3 || month==5 || month==7 || month==8 || month==10 || month==12)
+// {
+
+//     cout<<"31  days";
+// }
+// else if(month==4 || month==6 || month==9 || month==11)
+// {
+//     cout<<"30  days";
+// }
+// else if(month==2)
+// {
+//     cout<<"28/29  days";
+// }
+// else
+// {
+//     cout<<"ii";
+// }
+
+
+int day;
+
+cout<<"Enter the day number: ";
+cin>>day;
+if(day==1)
+{
+    cout<<"Sunday";
+}
+
+else if(day==2)
+{  
+        cout<<"Mon";  
+}
+
+else if(day==3)
+{  
+        cout<<"tue";  
+}
+else if(day==4)
+{  
+        cout<<"wed";  
+}
+else if(day==5)
+{  
+        cout<<"thu";  
+}
+else if(day==6)
+{  
+        cout<<"fri";  
+}
+else if(day==7)
+{  
+        cout<<"sat";  
+}
+else
+
+{
+    cout<<"Invalid input";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
