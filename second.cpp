@@ -130,4 +130,77 @@ int main()
 //   cout<<"Greater than 30";
 // }
 
+// -------------------           5            -----------------------------------------
+
+// 5)Write a C++ program that takes a single character as input and checks:
+
+// If it's an uppercase letter, print "Uppercase Letter"
+// If it's a lowercase letter, print "Lowercase Letter"
+// If it's a digit, print "Digit"
+// If it's a special character, print "Special Character"
+
+// char single;
+
+// cout<<"Enter a single character: ";
+// cin>>single;
+// if(single>='A' && single<='Z')
+// {
+//   cout<<"Uppercase Letter";
+// }
+// else if(single>='a' && single<='z')
+// {
+//   cout<<"Lowercase Letter";
+// }
+// else if(single>=0 && single<=9)
+// {
+//   cout<<"Digit";
+// }
+// else
+// {
+//   cout<<"Special Character";
+// }
+
+
+// -------------------           6            -----------------------------------------
+
+
+// Write a C++ program that takes three side lengths of a triangle as input and:
+
+// First, check if the three sides can form a valid triangle.
+// A triangle is valid if the sum of any two sides is greater than the third side.
+
+// If valid, determine the type of triangle:
+// Equilateral: all sides are equal
+// Isosceles: any two sides are equal
+// Scalene: all sides are different
+// If not valid, print "Not a triangle"
+
+
+int a,b,c;
+cout<<"Enter the three side of triangle: ";
+cin>>a;
+cin>>b;
+cin>>c;
+
+if(a+b>c && b+c>a && c+a>b)
+{
+  if(a==b && b==c)
+    {
+      cout<<"Its a Equilateral triangle";
+    }
+     else if(a==b || b==c || c==a)
+     {
+        cout<<"Its a Isosceles triangle";  
+     }
+     else
+     {
+        cout<<"Its a Scalene triangle";
+     }
+    }
+  else
+  {
+    cout<<"Not a triangle";
+  }
+
+  
 }
