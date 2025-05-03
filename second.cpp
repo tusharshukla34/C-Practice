@@ -176,31 +176,240 @@ int main()
 // If not valid, print "Not a triangle"
 
 
-int a,b,c;
-cout<<"Enter the three side of triangle: ";
-cin>>a;
-cin>>b;
-cin>>c;
+// int a,b,c;
+// cout<<"Enter the three side of triangle: ";
+// cin>>a;
+// cin>>b;
+// cin>>c;
 
-if(a+b>c && b+c>a && c+a>b)
-{
-  if(a==b && b==c)
-    {
-      cout<<"Its a Equilateral triangle";
-    }
-     else if(a==b || b==c || c==a)
-     {
-        cout<<"Its a Isosceles triangle";  
-     }
-     else
-     {
-        cout<<"Its a Scalene triangle";
-     }
-    }
-  else
-  {
-    cout<<"Not a triangle";
-  }
+// if(a+b>c || b+c>a || c+a>b)
+// {
+//   if(a==b && b==c)
+//     {
+//       cout<<"Its a Equilateral triangle";
+//     }
+//      else if(a==b || b==c || c==a)
+//      {
+//         cout<<"Its a Isosceles triangle";  
+//      }
+//      else
+//      {
+//         cout<<"Its a Scalene triangle";
+//      }
+//     }
+//   else
+//   {
+//     cout<<"Not a triangle";
+//   }
 
+// 1------2
+// |      |
+// |      |
+// |      |
+// 3------4
+
+// 1-4
+// 1-2-4
+// 1-2-3-4
+// 1-3-4
+// 1-3-2-4
+
+
+
+// int path;
+// cout<<"enter your path";
+// cin>>path;
+// if(path==1)
+// {
+//   cout<<"enter your path";
+// cin>>path;
+// if(path==2)
+// {
+//   cout<<"enter your path";
+// cin>>path;
+// if(path==3)
+// {
+//   cout<<"enter your path";
+//   cin>>path;
+//   if(path==4)
+//   {
+//     cout<<"dr";
+//   }
+//   else{
+//     cout<<"ir";
+//   }
   
+// }
+// else if(path==4)
+// {
+//   cout<<"dr";
+// }
+
+// else{
+//   cout<<"ir";
+// }
+
+// }
+// else if(path==3)
+// {
+
+//   cout<<"enter your path";
+//   cin>>path;
+//   if(path==4)
+//   {
+//     cout<<"dr";
+//   }
+// else if(path==2)
+// {
+
+//   cout<<"enter your path";
+//   cin>>path;
+//   if(path==4)
+//   {
+//     cout<<"dr";
+
+//   }
+//   else{
+//     cout<<"ir";
+//   }
+
+// }
+
+
+
+// else{
+//   cout<<"ir";
+// }
+
+// }
+// else if(path==4)
+// {
+//   cout<<"dr";
+// }
+// else{
+//   cout<<"ir";
+// }
+
+// }
+// else
+// {
+//   cout<<"ir";
+// }
+
+
+
+// 1------2
+// |      |
+// |      |
+// |      |
+// 3------4
+
+// 1-4
+// 1-2-4
+// 1-2-3-4
+// 1-3-4
+// 1-3-2-4
+// int path;
+// cout<<"Enter the path";
+// cin>>path;
+// if(path==1)
+// {
+//   cout<<"Enter the path";
+//   cin>>path;
+
+//   if(path==2)
+//   {
+//     cout<<"Enter the path";
+//     cin>>path;
+//     if(path==3)
+//     {
+//       cout<<"Enter the path";
+//       cin>>path;
+//       if(path==4) cout<<"dr";
+//       else cout<<"ir";
+//     }
+//     else if(path==4)
+//   {
+//     cout<<"dr";
+//   }
+//   else
+// {
+//   cout<<"ir";
+// }
+//   }
+//   else if(path==3){}
+// else if(path==4) cout<<"dr";
+
+// else{
+//   cout<<"ir";
+// }
+// }
+// else{
+//   cout<<"ir";
+// }
+
+
+
+
+// 1------2
+// |      |
+// |      |
+// |      |
+// 3------4
+
+
+
+int path;
+    cout<<"Enter the path: ";
+    cin>>path;
+if(path==1)
+{
+  cout<<"Enter the path: ";
+    cin>>path;
+      if(path==2)
+      {
+        cout<<"Enter the path: ";
+        cin>>path;
+        if(path==3)
+        {
+          cout<<"Enter the path: ";
+          cin>>path;
+        }
+        if(path==4)
+        {
+          cout<<"dr";
+        }
+        else
+        {
+          cout<<"ir";
+        }
+      }
+else if(path==3)
+{
+     cout<<"Enter the path: ";
+     cin>>path;
+      if(path==2)
+      {
+        cout<<"Enter the path: ";
+        cin>>path;
+      }
+      if(path==4)
+      {
+        cout<<"dr";
+      }
+      else
+      {
+        cout<<"ir";
+      }
+}
+else if(path==4)
+{
+  cout<<"dr";
+}
+else
+{
+  cout<<"ir";
+}
+}
+
 }
