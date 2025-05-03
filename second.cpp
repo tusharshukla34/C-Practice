@@ -359,57 +359,105 @@ int main()
 
 
 
-int path;
-    cout<<"Enter the path: ";
-    cin>>path;
-if(path==1)
+// int path;
+//     cout<<"Enter the path: ";
+//     cin>>path;
+// if(path==1)
+// {
+//   cout<<"Enter the path: ";
+//     cin>>path;
+//       if(path==2)
+//       {
+//         cout<<"Enter the path: ";
+//         cin>>path;
+//         if(path==3)
+//         {
+//           cout<<"Enter the path: ";
+//           cin>>path;
+//         }
+//         if(path==4)
+//         {
+//           cout<<"dr";
+//         }
+//         else
+//         {
+//           cout<<"ir";
+//         }
+//       }
+// else if(path==3)
+// {
+//      cout<<"Enter the path: ";
+//      cin>>path;
+//       if(path==2)
+//       {
+//         cout<<"Enter the path: ";
+//         cin>>path;
+//       }
+//       if(path==4)
+//       {
+//         cout<<"dr";
+//       }
+//       else
+//       {
+//         cout<<"ir";
+//       }
+// }
+// else if(path==4)
+// {
+//   cout<<"dr";
+// }
+// else
+// {
+//   cout<<"ir";
+// }
+// }
+
+
+
+
+
+// 1-2-5-6
+// 1-2-3-6
+// 1-2-3-4-5-6
+// 1-6
+// 1-4-5-6
+
+
+int user;
+string ans;
+
+cout<<"Enter your age: ";
+cin>>user;
+cout<<"Do you have driving license: yes/no: ";
+cin>>ans;
+if(user>=18)
 {
-  cout<<"Enter the path: ";
-    cin>>path;
-      if(path==2)
-      {
-        cout<<"Enter the path: ";
-        cin>>path;
-        if(path==3)
-        {
-          cout<<"Enter the path: ";
-          cin>>path;
-        }
-        if(path==4)
-        {
-          cout<<"dr";
-        }
-        else
-        {
-          cout<<"ir";
-        }
-      }
-else if(path==3)
-{
-     cout<<"Enter the path: ";
-     cin>>path;
-      if(path==2)
-      {
-        cout<<"Enter the path: ";
-        cin>>path;
-      }
-      if(path==4)
-      {
-        cout<<"dr";
-      }
-      else
-      {
-        cout<<"ir";
-      }
+  if(ans=="yes" || ans=="no")
+  {
+    cout<<"You can drive";
+  }
+  else
+  {
+    cout<<"You are old but u need license";
+  }
 }
-else if(path==4)
-{
-  cout<<"dr";
+else{
+  cout<<"You are not old enough to drive ";
 }
-else
-{
-  cout<<"ir";
-}
-}
+
+
+Write a program that asks the user to enter a number. Then:
+
+If the number is positive:
+
+Check if it's even or odd.
+If it's even, print "The number is positive and even."
+If it's odd, print "The number is positive and odd."
+If the number is zero, print "The number is zero."
+If the number is negative, print "The number is negative."
+
+
+
+
 
 }
