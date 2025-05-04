@@ -251,6 +251,32 @@ int main()
 
 // Write a C++ code snippet that takes three integers as input. Determine and print the smallest of the three numbers.
 
+int a;
+int b;
+int c;
+cout<<"Enter the number: ";
+cin>>a;
+cout<<"Enter the number: ";
+cin>>b;
+cout<<"Enter the number: ";
+cin>>c;
+if(a<b && a<c)
+{
+    cout<<a<<" is the smallest one";
+}
+else if(b<a && b<c)
+{
+    cout<<b<<" is the smallest one";
+}
+else if(c<b && c<a)
+{
+    cout<<c<<" is the smallest one";
+}
+else if(a==b && b==c)
+{
+    cout<<" Numbers are equals";
+}
+                            // 05-05-2025
 
 
 
@@ -258,6 +284,21 @@ int main()
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            
 // ---------------------6--------------------------------------------------------
 
 }
