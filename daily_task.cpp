@@ -167,57 +167,93 @@ int main()
 
 // Write a C++ code snippet that takes a single character as input. If the character is a lowercase vowel ('a', 'e', 'i', 'o', 'u'), print "Lowercase vowel". Otherwise, print "Not a lowercase vowel".
 
-char single;
-cout<<"Enter a vowel: ";
-cin>>single;
-if(single=='a')
-{
-    cout<<"Its a lowercase vowel";
-}
-else if(single=='e')
-{
-    cout<<"Its a lowercase vowel";
-}
-else if(single=='i')
-{
-    cout<<"Its a lowercase vowel";
-}
-else if(single=='o')
-{
-    cout<<"Its a lowercase vowel";
-}
-else if(single=='u')
-{
-    cout<<"Its a lowercase vowel";
-}
-else
-{
-    cout<<"Not a lowercase vowel";
-}
+// char single;
+// cout<<"Enter a vowel: ";
+// cin>>single;
+// if(single=='a')
+// {
+//     cout<<"Its a lowercase vowel";
+// }
+// else if(single=='e')
+// {
+//     cout<<"Its a lowercase vowel";
+// }
+// else if(single=='i')
+// {
+//     cout<<"Its a lowercase vowel";
+// }
+// else if(single=='o')
+// {
+//     cout<<"Its a lowercase vowel";
+// }
+// else if(single=='u')
+// {
+//     cout<<"Its a lowercase vowel";
+// }
+// else
+// {
+//     cout<<"Not a lowercase vowel";
+// }
 
 // ---------------------9--------------------------------------------------------
 
 // Write a C++ code snippet that takes an integer as input. If the number is positive, print "Positive". If the number is negative, print "Negative". If the number is zero, print "Zero".
 
+// int num;
+// cout<<"Enter the number: ";
+// cin>>num;
+// if(num>0)
+// {
+//     cout<<"Positive";
+// }
+// else if(num<0)
+// {
+//     cout<<"Negative";
+// }
+// else
+// {
+//         cout<<"Zero";
+// }
+
+// ---------------------10--------------------------------------------------------
+
+// Write a C++ code snippet that takes three integers as input. Determine and print the largest of the three numbers
+
+
+// int a;
+// int b;
+// int c;
+// cout<<"Enter the number: ";
+// cin>>a;
+// cout<<"Enter the number: ";
+// cin>>b;
+// cout<<"Enter the number: ";
+// cin>>c;
+// if(a>b && a>c)
+// {
+//     cout<<a<<" is greater";
+// }
+// else if(b>c && b>a)
+// {
+//     cout<<b<<" is greater";
+// }
+// else if(c>a && c>b)
+// {
+//     cout<<c<<" is greater";
+// }
+// else if(a==b && b==c)
+// {
+//     cout<<"All three numbers are equal";
+// }
+
+
+// ---------------------11--------------------------------------------------------
+
+// Write a C++ code snippet that takes three integers as input. Determine and print the smallest of the three numbers.
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-// ---------------------6--------------------------------------------------------
-
-// ---------------------6--------------------------------------------------------
 
 
 
