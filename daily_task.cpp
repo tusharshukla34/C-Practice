@@ -2,6 +2,8 @@
 using namespace std;
 int main()
 {
+
+                            // 04-05-2025
     
 // ---------------------1--------------------------------------------------------
 
@@ -106,7 +108,18 @@ int main()
 
 // Write a C++ code snippet that takes two floating-point numbers as input and prints their product (the result of their multiplication)
 
+// float a;
+// float b;
+// cout<<"Enter the first number";
+// cin>>a;
+// cout<<"Enter the Second number";
+// cin>>b;
+// cout<<a*b;
 
 
 
+// ---------------------6--------------------------------------------------------
+
+
+Write a C++ code snippet that takes an integer as input representing a person's age. Print "Eligible to vote" if the age is 18 or greater AND less than or equal to 65. Otherwise, print "Not eligible to vote".
 }
