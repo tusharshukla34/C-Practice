@@ -60,7 +60,52 @@ int main()
 //     cout<<"Fail";
 // }
 
-// ---------------------3--------------------------------------------------------
+// ---------------------4--------------------------------------------------------
+
+// Write a C++ code snippet that takes an integer as input representing a day of the week (e.g., 1 for Monday, 2 for Tuesday, and so on, up to 7 for Sunday). The program should then print the corresponding day of the week. For example, if the input is 1, it should print "Monday".
+
+// int day;
+// cout<<"Enter the day ";
+// cin>>day;
+// if(day==1)
+// {
+//     cout<<"Monday";
+// }
+// else if(day==2)
+// {
+//     cout<<"Tuesday";
+// }
+// else if(day==3)
+// {
+//     cout<<"Wednesday";
+// }
+// else if(day==4)
+// {
+//     cout<<"Thursday";
+// }
+// else if(day==5)
+// {
+//     cout<<"Friday";
+// }
+// else if(day==6)
+// {
+//     cout<<"Saturday";
+// }
+// else if(day==7)
+// {
+//     cout<<"Sunday";
+// }
+// else
+// {
+//     cout<<"Invalid day number";
+// }
+
+
+// ---------------------5--------------------------------------------------------
+
+
+// Write a C++ code snippet that takes two floating-point numbers as input and prints their product (the result of their multiplication)
+
 
 
 
