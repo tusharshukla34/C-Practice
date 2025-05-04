@@ -48,8 +48,19 @@ int main()
 
 // Write a C++ code snippet that takes an integer as input representing a student's score. If the score is 60 or greater, print "Pass". Otherwise, print "Fail".
 
+// int score;
+// cout<<"Enter your score ";
+// cin>>score;
+// if(score>=60)
+// {
+//     cout<<"Pass";
+// }
+// else
+// {
+//     cout<<"Fail";
+// }
 
-
+// ---------------------3--------------------------------------------------------
 
 
 
