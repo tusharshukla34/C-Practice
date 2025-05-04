@@ -121,5 +121,107 @@ int main()
 // ---------------------6--------------------------------------------------------
 
 
-Write a C++ code snippet that takes an integer as input representing a person's age. Print "Eligible to vote" if the age is 18 or greater AND less than or equal to 65. Otherwise, print "Not eligible to vote".
+// Write a C++ code snippet that takes an integer as input representing a person's age. Print "Eligible to vote" if the age is 18 or greater AND less than or equal to 65. Otherwise, print "Not eligible to vote".
+
+
+// int age;
+// cout<<"Enter your age ";
+// cin>>age;
+// if(age>=18 && age<=65)
+// {
+//    cout<< "Eligible to vote ";
+// }
+// else
+// {
+//     cout<< "Not Eligible to vote ";
+// }
+
+// ---------------------7--------------------------------------------------------
+
+
+// Write a C++ code snippet that takes an integer as input representing a temperature in Celsius. If the temperature is below 0, print "Freezing". If it is between 0 and 10 (inclusive), print "Cold". If it is between 11 and 25 (inclusive), print "Moderate". If it is above 25, print "Warm".
+
+
+// int temp;
+// cout<<"Enter the temperature ";
+// cin>>temp;
+// if(temp<0)
+//  {
+//     cout<<"Freezing";
+//  }
+// else if(temp>=0 && temp<=10)
+// {
+//     cout<<"Cold";
+// }
+// else if(temp>=11 && temp<=25)
+// {
+//     cout<<"Moderate";
+// }
+// else
+// {
+//     cout<<"warm";
+// }
+
+
+// ---------------------8--------------------------------------------------------
+
+// Write a C++ code snippet that takes a single character as input. If the character is a lowercase vowel ('a', 'e', 'i', 'o', 'u'), print "Lowercase vowel". Otherwise, print "Not a lowercase vowel".
+
+char single;
+cout<<"Enter a vowel: ";
+cin>>single;
+if(single=='a')
+{
+    cout<<"Its a lowercase vowel";
+}
+else if(single=='e')
+{
+    cout<<"Its a lowercase vowel";
+}
+else if(single=='i')
+{
+    cout<<"Its a lowercase vowel";
+}
+else if(single=='o')
+{
+    cout<<"Its a lowercase vowel";
+}
+else if(single=='u')
+{
+    cout<<"Its a lowercase vowel";
+}
+else
+{
+    cout<<"Not a lowercase vowel";
+}
+
+// ---------------------9--------------------------------------------------------
+
+// Write a C++ code snippet that takes an integer as input. If the number is positive, print "Positive". If the number is negative, print "Negative". If the number is zero, print "Zero".
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ---------------------6--------------------------------------------------------
+
+// ---------------------6--------------------------------------------------------
+
+
+
+
+// ---------------------6--------------------------------------------------------
+
 }
