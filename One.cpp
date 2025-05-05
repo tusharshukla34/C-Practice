@@ -235,57 +235,176 @@ int main()
 // }
 
 
-int day;
+// int day;
 
-cout<<"Enter the day number: ";
-cin>>day;
-if(day==1)
+// cout<<"Enter the day number: ";
+// cin>>day;
+// if(day==1)
+// {
+//     cout<<"Sunday";
+// }
+
+// else if(day==2)
+// {  
+//         cout<<"Mon";  
+// }
+
+// else if(day==3)
+// {  
+//         cout<<"tue";  
+// }
+// else if(day==4)
+// {  
+//         cout<<"wed";  
+// }
+// else if(day==5)
+// {  
+//         cout<<"thu";  
+// }
+// else if(day==6)
+// {  
+//         cout<<"fri";  
+// }
+// else if(day==7)
+// {  
+//         cout<<"sat";  
+// }
+// else
+
+// {
+//     cout<<"Invalid input";
+// }
+
+
+
+
+
+
+
+// char single;
+// cout<<"Enter the character: ";
+// cin>>single;
+// if(single>='A' && single<='Z' || single>='a' && single<='z' )
+// {
+
+//         if(single>='A' && single<='Z' )
+//         {
+//                 cout<<"Its a uppercase";
+//         }
+//        else if(single>='a' && single<='z' )
+//         {
+//                 cout<<"Its a lowercase";
+//         }
+        
+// }
+// else{
+//         cout<<"Its a special symbol";    
+//      }
+
+
+// string input;
+// cout<<"enter the name of web";
+// cin>>input;
+
+// if(input=="www.tourism.com")
+// {
+//         cout<<"enter from tgh egiven options int=internationala dom=domestic";
+//         cin>>input;
+//         if(input=="int")
+//         {
+//                 cout<<"enter from tgh egiven options jspsn,korea, pakistan";
+//                 cin>>input;
+//                 if(input=="japan")
+//                 {
+//                         cout<<"1200rs";
+//                 }
+//                else if(input=="korea")
+// {
+//         cout<<"120rs";
+// }
+// else if(input=="pakistan")
+// {
+//         cout<<"0rs";
+// }
+
+// else
+// {
+//         cout<<"iadrss";
+// }   
+
+//         }
+//         else if(input=="dom")
+//         {
+//                 cout<<"enter from tgh egiven options baang,mumbai,delhi";
+//                 cin>>input;
+//                 if(input=="banglore")
+//                 {
+//                         cout<<"1200rs";
+//                 }
+//                else if(input=="mumbai")
+// {
+//         cout<<"120rs";
+// }
+// else if(input=="delhi")
+// {
+//         cout<<"0rs";
+// }
+
+// else
+// {
+//         cout<<"iadrss";
+// }
+//         }
+//         else
+//         {
+//                 cout<<"iadrss";
+//         }
+        
+// }
+// else{
+//         cout<<"iadrss";
+// }
+
+
+
+
+int a=10;
+int b=20;
+int temp;
+// with two variables  with three variables
+
+
+
+
+
+
+
+int method;
+cout<<"Enter the method num: 2 or 3";
+cin>>method;
+if(method==2)
 {
-    cout<<"Sunday";
-}
+a=a+b;
+b=a-b;
+a=a-b;
 
-else if(day==2)
-{  
-        cout<<"Mon";  
 }
+else if(method==3)
+{
+temp=a;
+a=b;
+b=temp;
 
-else if(day==3)
-{  
-        cout<<"tue";  
-}
-else if(day==4)
-{  
-        cout<<"wed";  
-}
-else if(day==5)
-{  
-        cout<<"thu";  
-}
-else if(day==6)
-{  
-        cout<<"fri";  
-}
-else if(day==7)
-{  
-        cout<<"sat";  
 }
 else
-
 {
-    cout<<"Invalid input";
+        cout<<"Wrong method number";
 }
 
 
 
 
-
-
-
-
-
-
-
-
+cout<<a<<b;
 
 
 

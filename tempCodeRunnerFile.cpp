@@ -1,4 +1,1 @@
-else if(single==$ ||@ ||# ||> ||< ||* ||%)
-// {
-//   cout<<"Special Character";
-// }
+int temp;
