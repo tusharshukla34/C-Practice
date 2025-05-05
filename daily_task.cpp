@@ -251,38 +251,63 @@ int main()
 
 // Write a C++ code snippet that takes three integers as input. Determine and print the smallest of the three numbers.
 
-int a;
-int b;
-int c;
-cout<<"Enter the number: ";
-cin>>a;
-cout<<"Enter the number: ";
-cin>>b;
-cout<<"Enter the number: ";
-cin>>c;
-if(a<b && a<c)
-{
-    cout<<a<<" is the smallest one";
-}
-else if(b<a && b<c)
-{
-    cout<<b<<" is the smallest one";
-}
-else if(c<b && c<a)
-{
-    cout<<c<<" is the smallest one";
-}
-else if(a==b && b==c)
-{
-    cout<<" Numbers are equals";
-}
+// int a;
+// int b;
+// int c;
+// cout<<"Enter the number: ";
+// cin>>a;
+// cout<<"Enter the number: ";
+// cin>>b;
+// cout<<"Enter the number: ";
+// cin>>c;
+// if(a<b && a<c)
+// {
+//     cout<<a<<" is the smallest one";
+// }
+// else if(b<a && b<c)
+// {
+//     cout<<b<<" is the smallest one";
+// }
+// else if(c<b && c<a)
+// {
+//     cout<<c<<" is the smallest one";
+// }
+// else if(a==b && b==c)
+// {
+//     cout<<" Numbers are equals";
+// }
                             // 05-05-2025
 
+// Write a C++ code snippet that takes an integer representing the number of units of electricity consumed. Calculate and print the total electricity bill based on the following rates:
 
+// For the first 50 units: ₹ 3.50 per unit
+// For the next 100 units (i.e., units 51 to 150): ₹ 4.00 per unit
+// For the next 100 units (i.e., units 151 to 250): ₹ 5.20 per unit
+// For units above 250: ₹ 6.50 per unit
 
-
-
-
+// float unit;
+// cout<<"Enter number of unit consumed: ";
+// cin>>unit;
+// if(unit<=50)
+// {
+//     cout<<unit*3.50;
+// }
+// else if(unit<=150)
+// {
+//     cout<<(50*3.50) +((units-50)*4.00);
+// }
+// else if(unit<=250)
+// {
+//     cout<<(50*3.50)+(100*4.00)+((units-150)*5.20);
+// }
+// else if(unit>250)
+// {
+//     cout<<(50*3.50)+(100*4.00)+(100*5.20)+((units-250)*6.50);
+// }
+// else
+// {
+//     cout<<"invalid"
+// }
 
 
 

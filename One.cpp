@@ -368,9 +368,9 @@ int main()
 
 
 
-int a=10;
-int b=20;
-int temp;
+// int a=10;
+// int b=20;
+// int temp;
 // with two variables  with three variables
 
 
@@ -379,32 +379,32 @@ int temp;
 
 
 
-int method;
-cout<<"Enter the method num: 2 or 3";
-cin>>method;
-if(method==2)
-{
-a=a+b;
-b=a-b;
-a=a-b;
+// int method;
+// cout<<"Enter the method num: 2 or 3";
+// cin>>method;
+// if(method==2)
+// {
+// a=a+b;
+// b=a-b;
+// a=a-b;
 
-}
-else if(method==3)
-{
-temp=a;
-a=b;
-b=temp;
+// }
+// else if(method==3)
+// {
+// temp=a;
+// a=b;
+// b=temp;
 
-}
-else
-{
-        cout<<"Wrong method number";
-}
-
-
+// }
+// else
+// {
+//         cout<<"Wrong method number";
+// }
 
 
-cout<<a<<b;
+
+
+// cout<<a<<b;
 
 
 
