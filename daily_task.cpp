@@ -310,20 +310,146 @@ int main()
 // }
 
 
+                            // 06-05-2025
+
+// ---------------------1--------------------------------------------------------
+
+// Write a C++ code snippet that takes an integer as input representing a month (1 for January, 2 for February, and so on, up to 12 for December). The program should then print the number of days in that month. For simplicity, assume February always has 28 days. Include a check for invalid month numbers.
 
 
 
-
-
-
-
-
-
-
-
-
+// int month;
+// cout<<"Enter the month name: ";
+// cin>>month;
+// if(month==1)
+// {
+//     cout<<"Jan";
+//     cout<<31;
+// }
+// else if(month==2)
+// {
+//     cout<<"feb";
+//     cout<<28;
+// }
+// else if(month==3)
+// {
+//     cout<<"march";
+//     cout<<31;
+// }
+// else if(month==4)
+// {
+//     cout<<"april";
+//     cout<<30;
+// }
+// else if(month==5)
+// {
+//     cout<<"may";
+//     cout<<31;
+// }
+// else if(month==6)
+// {
+//     cout<<"june";
+//     cout<<30;
+// }
+// else if(month==7)
+// {
+//     cout<<"july";
+//     cout<<31;
+// }
+// else if(month==8)
+// {
+//     cout<<"aug";
+//     cout<<31;
+// }
+// else if(month==9)
+// {
+//     cout<<"sep";
+//     cout<<30;
+// }
+// else if(month==10)
+// {
+//     cout<<"out";
+//     cout<<31;
+// }
+// else if(month==11)
+// {
+//     cout<<"nov";
+//     cout<<30;
+// }
+// else if(month==12)
+// {
+//     cout<<"dec";
+//     cout<<31;
+// }
 
                             
-// ---------------------6--------------------------------------------------------
+// ---------------------2--------------------------------------------------------
+
+// Write a C++ code snippet that takes an integer as input representing the year. Determine if the year is a leap year or not and print the result.
+
+// A year is a leap year if it is divisible by 4, but not by 100, unless it is also divisible by 400.
+
+// Here's the breakdown of the rules:
+
+// If the year is divisible by 4, it is a leap year, unless...
+// ...the year is also divisible by 100. If it is divisible by 100, it is not a leap year, unless...
+// ...the year is also divisible by 400. If it is divisible by 400, it is a leap year.
+
+// int year;
+// cout<<"Enter the year to check: ";
+// cin>>year;
+// if(year%4==0)
+// {
+//   if(year%100==0)
+// {
+
+//     if(year%400==0)
+//     {
+//         cout<<"leap year";
+//     }
+//     else
+//    {
+//         cout<<"not a leap year";
+//    }
+// }
+
+// else
+// {
+//     cout<<"leap year";
+// }
+// }
+// else
+// {
+//     cout<<"not a leap year";
+// }
+
+// ---------------------3-------------------------------------------------------------
+
+
+Write a C++ code snippet that takes two integers as input: the current hour (in 24-hour format, 0-23) and the current minute (0-59). Based on the time, print a greeting:
+
+"Good morning" if the hour is between 6 (inclusive) and 12 (exclusive).
+"Good afternoon" if the hour is between 12 (inclusive) and 18 (exclusive).
+"Good evening" if the hour is between 18 (inclusive) and 22 (exclusive).
+"Good night" for all other times.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }

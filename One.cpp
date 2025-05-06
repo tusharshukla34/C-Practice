@@ -409,5 +409,110 @@ int main()
 
 
 
+// meter reading
+
+// 0-50  10rs/unit
+// 50-100  20rs/unit
+// 100-150  30rs/unit
+// 150-200 40rs/unit
+// above 200 50rs/unit
+
+
+// int unit;
+// cout<<"enter meater reading";
+// cin>>unit;
+// if(unit>0 && unit<=50)
+// {
+//         cout<<unit*10;
+// }
+// else if(unit>50 && unit<=100)
+// {
+//       cout<<50*10+(unit-50)*20;
+// }
+// else if(unit>100 && unit<=150)
+// {
+//       cout<<50*10+50*20+(unit-100)*30;
+// }
+// else if(unit>150 && unit<=200)
+// {
+//       cout<<50*10+50*20+50*30+(unit-150)*40;
+// }
+// else if(unit>200 )
+// {
+//       cout<<50*10+50*20+50*30+50*40+(unit-200)*50;
+// }
+
+// int a=10;
+
+// int a;
+// cout<<"choose your choice veg =1non veg=2";
+// cin>>a;
+
+// switch(a)
+// {
+      
+//         case 1:cout<<"choose veg 1.noodles 2.aalu";
+//         cin>>a;
+//         switch(a)
+//         {
+//                case 1:cout<<"nnoodles khalo";
+//                break;
+
+//                case 2:cout<<"aalu khalo";
+//                break;
+
+//                default:cout<<"io";
+               
+
+//         }
+
+//         break;
+//         case 2:cout<<"choose from th given optio 1.chiken 2.biryani";
+//         cin>>a;
+//         switch(a)
+//         {
+//                case 1:cout<<"chiken khalo";
+//                break;
+
+//                case 2:cout<<"biryani khalo";
+//                break;
+
+//                default:cout<<"io";
+               
+
+//         }
+//         break;
+//         default:cout<<"ii";
+//          break;
+// }
+
+// int,char
+// logical expression
+// fallthrough -break
+// position of default is not fixed
+// nesting is also problematic
+
+// jumping statement
+
+int i=0;
+
+cout<<"abhishek";
+
+start:
+
+if(i<3)
+{
+        cout<<"anamika";
+i++;
+        goto start;
+}
+
+
+
+cout<<"akshay";
+
+
+
+
 }
 
