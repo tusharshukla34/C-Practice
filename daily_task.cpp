@@ -426,12 +426,130 @@ int main()
 // ---------------------3-------------------------------------------------------------
 
 
-Write a C++ code snippet that takes two integers as input: the current hour (in 24-hour format, 0-23) and the current minute (0-59). Based on the time, print a greeting:
+// Write a C++ code snippet that takes two integers as input: the current hour (in 24-hour format, 0-23) and the current minute (0-59). Based on the time, print a greeting:
 
-"Good morning" if the hour is between 6 (inclusive) and 12 (exclusive).
-"Good afternoon" if the hour is between 12 (inclusive) and 18 (exclusive).
-"Good evening" if the hour is between 18 (inclusive) and 22 (exclusive).
-"Good night" for all other times.
+// "Good morning" if the hour is between 6 (inclusive) and 12 (exclusive).
+// "Good afternoon" if the hour is between 12 (inclusive) and 18 (exclusive).
+// "Good evening" if the hour is between 18 (inclusive) and 22 (exclusive).
+// "Good night" for all other times.
+
+// int hour,sec;
+// cout<<"Enter the time in hour 0-23: ";
+// cin>>hour;
+// cout<<"Enter the time in min 0-59: ";
+// cin>>sec;
+// if(hour>=6 && hour<12)
+// {
+//     cout<<"Good morning";
+// }
+// else if(hour>=12 && hour<18)
+// {
+//     cout<<"Good afternoon";
+// }
+// else if(hour>=18 && hour<22)
+// {
+//     cout<<"Good evening";
+// }
+// else
+// {
+//     cout<<"Good night";
+// }
+
+// ---------------------4-------------------------------------------------------------
+
+// Write a C++ code snippet that takes three integers as input, representing the lengths of the sides of a triangle. Determine if the triangle is valid. A triangle is valid if the sum of the lengths of any two sides is greater than the length of the third 1  side. Print "Valid triangle" or "Invalid triangle" accordingly.
+
+// int a,b,c;
+// cout<<"Enter the three side of triangle: ";
+// cin>>a>>b>>c;
+// if(a+b>c && b+c>a && c+a>b )
+// {
+//     cout<<"triangle";
+// }
+// else
+// {
+//     cout<<"not a triangle";
+// }
+
+
+
+// ------Switch---------------5--------------------------------------------------------
+
+
+Write a C++ code snippet that takes an integer as input representing a day of the week (1 for Monday, 2 for Tuesday, ..., 7 for Sunday). Using a switch statement, print the corresponding day name. Include a default case to handle invalid day numbers.
+
+int week;
+cout<<"Enter the week number: ";
+cin>>week;
+switch(week)
+{
+    case 1: cout<<"Mon";
+    break;
+    case 2: cout<<"tue";
+    break;
+    case 3: cout<<"wed";
+    break;
+    case 4: cout<<"thu";
+    break;
+    case 5: cout<<"fri";
+    break;
+    case 6: cout<<"sat";
+    break;
+    case 7: cout<<"sun";
+    break;
+    default:cout<<"Invalid";
+    break;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
