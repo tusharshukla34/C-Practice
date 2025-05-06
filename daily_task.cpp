@@ -476,44 +476,119 @@ int main()
 // ------Switch---------------5--------------------------------------------------------
 
 
-Write a C++ code snippet that takes an integer as input representing a day of the week (1 for Monday, 2 for Tuesday, ..., 7 for Sunday). Using a switch statement, print the corresponding day name. Include a default case to handle invalid day numbers.
+// Write a C++ code snippet that takes an integer as input representing a day of the week (1 for Monday, 2 for Tuesday, ..., 7 for Sunday). Using a switch statement, print the corresponding day name. Include a default case to handle invalid day numbers.
 
-int week;
-cout<<"Enter the week number: ";
-cin>>week;
-switch(week)
-{
-    case 1: cout<<"Mon";
-    break;
-    case 2: cout<<"tue";
-    break;
-    case 3: cout<<"wed";
-    break;
-    case 4: cout<<"thu";
-    break;
-    case 5: cout<<"fri";
-    break;
-    case 6: cout<<"sat";
-    break;
-    case 7: cout<<"sun";
-    break;
-    default:cout<<"Invalid";
-    break;
-}
+// int week;
+// cout<<"Enter the week number: ";
+// cin>>week;
+// switch(week)
+// {
+//     case 1: cout<<"Mon";
+//     break;
+//     case 2: cout<<"tue";
+//     break;
+//     case 3: cout<<"wed";
+//     break;
+//     case 4: cout<<"thu";
+//     break;
+//     case 5: cout<<"fri";
+//     break;
+//     case 6: cout<<"sat";
+//     break;
+//     case 7: cout<<"sun";
+//     break;
+//     default:cout<<"Invalid";
+//     break;
+// }
 
-
-
-
+// ------Switch---------------6--------------------------------------------------------
 
 
+// Write a C++ code snippet that takes two characters as input. The first character represents a shape ('C' for Circle, 'R' for Rectangle, 'T' for Triangle). The second character represents an operation ('A' for Area, 'P' for Perimeter).
+
+// char shape,operation;
+// cout<<"Enter the shape 'C' for Circle, 'R' for Rectangle, 'T' for Triangle : ";
+// cin>>shape;
+// cout<<"Enter the operation 'A' for Area, 'P' for Perimeter : ";
+// cin>>operation;
+// switch(shape)
+// {
+//     case 'C':
+//     switch(operation)
+//     {
+//         case 'A': cout<<"Calculating the area of circle";
+//         break;
+//         case 'P': cout<<"Calculating the perimeter of circle";
+//         break;
+//         default: cout<<"Invalid";
+//         break;
+//     }
+//     break;
+//     case 'R':
+//     switch(operation)
+//     {
+//         case 'A': cout<<"Calculating the area of rectangle";
+//         break;
+//         case 'P': cout<<"Calculating the perimeter of rectangle";
+//         break;
+//         default: cout<<"Invalid";
+//         break;
+//     }
+//     break;
+//     case 'T':
+//     switch(operation)
+//     {
+//         case 'A': cout<<"Calculating the area of triangle";
+//         break;
+//         case 'P': cout<<"Calculating the perimeter of triangle";
+//         break;
+//         default: cout<<"Invalid";
+//         break;
+//     }
+//     break;
+// }
+
+// ------Loop---------------2--------------------------------------------------------
+
+// print  table of 2
+
+// int n=2;
+// for(int i = 1;i <=10; i++)
+// {
+//     cout<<n<<" x "<<i<<" = "<<n*i<<endl;
+// }
 
 
 
 
 
 
+// ------Loop---------------1--------------------------------------------------------
 
 
+// Write a program that prints numbers from 1 to 10 using a for loop.
+
+// int i=0;
+// for(i;i<=10;i++)
+// {
+//     cout<<i<<" ";
+// }
+
+// ------Loop---------------2--------------------------------------------------------
+
+
+// Write a program that takes a number n from the user and prints the sum of all numbers from 1 to n using a while loop
+
+
+// int n;
+// int sum =0;
+// cout<<"Enter the number: ";
+// cin>>n;
+// for(int i=0;i<=n;i++)
+// sum+=i;
+// {
+//     cout<<"sum = "<< sum;
+// }
 
 
 
