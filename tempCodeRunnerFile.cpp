@@ -1,1 +1,1 @@
-int temp;
+cout<<sum<<" ";

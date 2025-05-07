@@ -494,25 +494,131 @@ int main()
 
 // jumping statement
 
-int i=0;
+// int i=0;
 
-cout<<"abhishek";
+// cout<<"abhishek";
 
-start:
+// start:
 
-if(i<3)
+// if(i<3)
+// {
+//         cout<<"anamika";
+// i++;
+//         goto start;
+// }
+
+
+
+// cout<<"akshay";
+
+
+
+
+
+
+
+// int i=1;
+
+// start:
+
+// if(i<=10)
+
+// {
+
+//         cout<<2*i;
+//         i++;
+//  goto start;
+
+// }
+
+// loop
+// =to perfrorm iterations
+
+// do while
+// while
+// for
+
+
+
+// 
+
+// do
+// {
+//         cout<<2*i;
+//         ++i;
+
+// }while(i<=10);
+
+
+// while(i<=10)
+// {
+//         cout<<2*i;
+//         ++i;
+
+// }
+
+
+
+// for(int i=1;i<=10;++i)
+// {
+//         cout<<2*i;
+// }
+
+// int i=1;
+// do
+// {
+//         cout<<2*i;
+//         ++i;
+// }
+// while(i<=10);
+
+
+
+// int i=1;
+// while(i<=10)
+// {
+//         cout<<2*i;
+//         ++i; 
+// }
+
+
+
+// for(int i=1;i<=10;++i)
+// {
+//         cout<<2*i<<" "; 
+// }
+
+
+
+
+// sum of n natural numbers
+// factorial
+// factor
+// hcf
+// lcm
+
+
+
+
+int n1=6,n2=18;
+int sum=1,ans,lcm;
+for(int i=1;i<=n1;++i)
 {
-        cout<<"anamika";
-i++;
-        goto start;
+
+// sum=sum+i;
+// factorial=factorial*i;
+
+if(n1%i==0  && n2%i==0)
+{
+       ans=i;
 }
 
 
+}
+cout<<ans;
 
-cout<<"akshay";
+lcm=n1*n2/ans;
 
-
-
-
+cout<<lcm;
 }
 
