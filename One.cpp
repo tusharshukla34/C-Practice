@@ -600,25 +600,154 @@ int main()
 
 
 
-int n1=6,n2=18;
-int sum=1,ans,lcm;
-for(int i=1;i<=n1;++i)
-{
+// int n1=6,n2=18;
+// int sum=1,ans,lcm;
+// for(int i=1;i<=n1;++i)
+// {
 
-// sum=sum+i;
-// factorial=factorial*i;
+// // sum=sum+i;
+// // factorial=factorial*i;
 
-if(n1%i==0  && n2%i==0)
-{
-       ans=i;
+// if(n1%i==0  && n2%i==0)
+// {
+//        ans=i;
+// }
+
+
+// }
+// cout<<ans;
+
+// lcm=n1*n2/ans;
+
+// cout<<lcm;
+
+
+
+//  int n1=10;  
+//  int n2=9;
+// int lcm;
+
+// for( int i=n1; ;i=i+n1)
+// {
+
+// if(i%n1==0 && i%n2==0)
+// {
+//        lcm=i;
+//        break;
+// }
+
+// }
+
+// cout<<lcm;
+// int i=n1;
+
+// while(i=i+n1)
+// {
+//     if(i%n1==0 && i%n2==0)
+//     {
+//        cout<<i;
+//        break;
+//     }
+       
+// }
+
+// int number=11;
+// int count=0;
+// for(int i=1;i<=number;++i)
+// {
+//        if(number%i==0 )
+//        {
+//               count++;
+
+//        }
+// }
+
+// cout<<count;
+
+// if(count==2)
+// {
+//        cout<<"prime number";
+// }
+// else{
+//        cout<<"not";
+// }
+
+
+// int number=28;
+// int fact=0;
+// for(int i =1; i<number;++i)
+// {
+//        if(number%i==0)
+//        {
+// fact=fact+i;
+//        }
+// }
+
+// if(fact==number)
+// {
+//        cout<<"perfect";
+// }
+// else{
+//        cout<<"not";
+// }
+
+
+                            //   lcm
+// int n1=10;
+// int i=n1;
+// int n2=9,lcm;
+
+
+// while(i=n1+i)
+// {
+//        if(i%n1==0 && i%n2==0)
+//        {
+//         cout<<i;
+//         break;
+//        }
+// }
+
+
+                     //  factor
+
+// int number=29;
+// int fact=0;
+// for(int i=1;i<number;++i)
+// {
+//        if(number%i==0)
+//        {
+//               fact=fact+i;
+//        }
+// }
+// if(fact==number)
+// {
+//        cout<<"its perfect number";
+// }
+// else
+// {
+//        cout<<"not";
+// }
+
+
+
+
+// 2^3=8
+
+
+// int number=3;
+// int power=5;
+// int ans=1;
+
+// for(int i=1;i<=power;++i)
+// {
+//        ans=ans*number;
+// }
+
+// cout<<ans;
+
+
+
+
+
+
 }
-
-
-}
-cout<<ans;
-
-lcm=n1*n2/ans;
-
-cout<<lcm;
-}
-
