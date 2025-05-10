@@ -1,5 +1,6 @@
 # include <iostream>
 # include <limits>
+# include <cmath>
 using namespace std;
 int main()
 {
@@ -747,7 +748,91 @@ int main()
 
 
 
+// ap series
 
+
+// a+(n-1)*d
+
+// 1+(4)*2;
+
+
+// 5th term
+//  1  3 5 7 9
+
+
+
+
+// int ft;
+// int n;
+// int d;
+// int ans;
+// cout<<"enter ft n and d";
+// cin>>ft>>n>>d;  
+// for(int i=0;i<n;++i)
+// {
+//    ans =ft+i*d;
+//    cout<<ans;
+// }
+
+
+// a*r^n-1
+
+
+// 1
+// 3
+// 9
+// 27
+// 81
+// 243
+
+
+// int ft,n,r,ans;
+// cout<<"enter ft n r";
+// cin>>ft>>n>>r;
+// for(int i=0; i<=n; ++i)
+// {
+
+//     ans=ft*pow(r,i);
+//     cout<<ans;
+
+// }
+
+
+
+
+int ft=1;
+int st=2;
+int n=5;
+int next=ft+st;
+
+int i=1;
+
+while(i<=n)
+{
+
+if(i==1)
+{
+    cout<<ft<<endl;
+       i++;
+  continue;
+ 
+}
+if(i==2)
+{
+    cout<<st<<endl;
+ 
+    i++;
+    continue;
+}
+next=ft+st;
+cout<<next<<endl;
+ft=st;
+st=next;
+i++;
+
+}
 
 
 }
+
+
