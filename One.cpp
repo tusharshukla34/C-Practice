@@ -786,51 +786,51 @@ int main()
 // 243
 
 
-// int ft,n,r,ans;
-// cout<<"enter ft n r";
-// cin>>ft>>n>>r;
-// for(int i=0; i<=n; ++i)
-// {
+int ft,n,r,ans;
+cout<<"enter ft n r";
+cin>>ft>>n>>r;
+for(int i=0; i<=n; ++i)
+{
 
-//     ans=ft*pow(r,i);
-//     cout<<ans;
+    ans=ft*pow(r,i);
+    cout<<ans;
 
-// }
+}
 
 // fibonachi
 
 
-int ft=1;
-int st=2;
-int n=5;
-int next=ft+st;
+// int ft=1;
+// int st=2;
+// int n=5;
+// int next=ft+st;
 
-int i=1;
+// int i=1;
 
-while(i<=n)
-{
+// while(i<=n)
+// {
 
-if(i==1)
-{
-    cout<<ft<<endl;
-       i++;
-  continue;
+// if(i==1)
+// {
+//     cout<<ft<<endl;
+//        i++;
+//   continue;
  
-}
-if(i==2)
-{
-    cout<<st<<endl;
+// }
+// if(i==2)
+// {
+//     cout<<st<<endl;
  
-    i++;
-    continue;
-}
-next=ft+st;
-cout<<next<<endl;
-ft=st;
-st=next;
-i++;
+//     i++;
+//     continue;
+// }
+// next=ft+st;
+// cout<<next<<endl;
+// ft=st;
+// st=next;
+// i++;
 
-}
+// }
 
 
 }
