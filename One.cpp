@@ -786,16 +786,16 @@ int main()
 // 243
 
 
-int ft,n,r,ans;
-cout<<"enter ft n r";
-cin>>ft>>n>>r;
-for(int i=0; i<=n; ++i)
-{
+// int ft,n,r,ans;
+// cout<<"enter ft n r";
+// cin>>ft>>n>>r;
+// for(int i=0; i<=n; ++i)
+// {
 
-    ans=ft*pow(r,i);
-    cout<<ans;
+//     ans=ft*pow(r,i);
+//     cout<<ans;
 
-}
+// }
 
 // fibonachi
 
@@ -831,6 +831,130 @@ for(int i=0; i<=n; ++i)
 // i++;
 
 // }
+
+
+
+int number=12010; 
+int org=number;
+int digit=0,rev=0;
+while(number!=0)
+{
+   digit=number%10;
+        rev =rev*10+digit;
+        number=number/10;
+        if(digit<=0)
+        {
+            cout<<0;
+        }
+
+}
+cout<<rev;
+
+if(rev==org)
+{
+    cout<<"  pallindrome";
+}
+else
+{
+ cout<<"  not a pallindrome";
+}
+
+
+
+// int number=123;
+// int org=number;
+// int sum=0,digit=0;
+// while(number!=0)
+// {
+// digit=number%10;
+//  sum=sum+digit*digit*digit;
+//  number=number/10;
+// }
+
+// if(org==sum)
+// {
+//     cout<<"armstrong";
+// }
+// else
+// {
+//     cout<<"not an armstrong";
+// }
+
+
+
+
+
+// int number=153;
+// int org=number;
+// int sum;
+// for(; number!=0 ; )
+// {
+//     int digit= number%10;
+//    sum=sum+digit*digit*digit;
+//    number=number/10;
+// }
+
+// if(org==sum)
+// {
+//     cout<<"armstrong";
+// }
+// else
+// {
+//     cout<<"not an armstrong";
+// }
+
+
+//  semi colon issue
+// int i ;
+//     for (i = 0; i < 10; i++);
+//     {
+//         cout << i;
+//     }
+
+
+
+
+// pattern
+
+
+
+// row  colum
+// square=5*5    
+// half =  *     half = space
+
+// for( int r=1;r<=5;++r)
+// {
+
+// for( int c=1;c<=5;++c)
+// {
+
+//    if(c>=r)
+//    {
+//     cout<<"*";
+//    }
+//     else
+//     {
+//         cout<<" ";
+//     }
+
+// }
+// cout<<endl;
+// }
+
+
+
+// *
+// **
+// ***    r=c
+// ****
+// *****
+
+
+
+
+
+
+
 
 
 }

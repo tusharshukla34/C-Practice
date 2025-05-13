@@ -115,7 +115,21 @@ int main(){
  // ------Loop---------------9--------------------------------------------------------
 
 
+int ft,n,r,ans;
+cout<<"enter ft n r";
+cin>>ft>>n>>r;
+for(int i=1;i<=n;++i)
+{
+       ans=ans*r;
+}
 
+
+for(int i=0; i<=n; ++i)
+{
+    ans=ft*ans;
+    cout<<ans;
+
+}
 
 
 
