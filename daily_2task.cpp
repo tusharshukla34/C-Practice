@@ -115,29 +115,69 @@ int main(){
  // ------Loop---------------9--------------------------------------------------------
 
 
-int ft,n,r,ans;
-cout<<"enter ft n r";
-cin>>ft>>n>>r;
-for(int i=1;i<=n;++i)
-{
-       ans=ans*r;
-}
+// int ft,n,r,ans;
+// cout<<"enter ft n r";
+// cin>>ft>>n>>r;
+// for(int i=1;i<=n;++i)
+// {
+//        ans=ans*r;
+// }
 
 
-for(int i=0; i<=n; ++i)
-{
-    ans=ft*ans;
-    cout<<ans;
+// for(int i=0; i<=n; ++i)
+// {
+//     ans=ft*ans;
+//     cout<<ans;
 
-}
-
-
-
+// }
 
 
 
 
+// for(int r=1;r<=5;++r)
+// {
+//     for(int c=1;c<=9;++c)
+//     if(c>=6-r && c<=4+r)
+//     {
+//         cout<<"*";
+//     }
+//     else
+//     {
+//         cout<<" ";
+//     }
+//     cout<<endl;
+// }
 
 
+
+
+
+// int a=0;
+// for(int r=1;r<=9;++r)
+// { 
+//     (r<=5?a++:a--);
+//     for(int c=1;c<=9;++c)
+//     {
+
+//     if(c>=6-a && c<=4+a)
+//     {
+//         cout<<"*";
+//     }
+//     else
+//     {
+//         cout<<" ";
+//     }
+// }
+//     cout<<endl;
+// 
+
+
+
+
+int=1
+fact=1
+n1
+for(i;n<=n1;++i)
+fact=i*fact
 
 }

@@ -834,30 +834,30 @@ int main()
 
 
 
-int number=12010; 
-int org=number;
-int digit=0,rev=0;
-while(number!=0)
-{
-   digit=number%10;
-        rev =rev*10+digit;
-        number=number/10;
-        if(digit<=0)
-        {
-            cout<<0;
-        }
+// int number=12010; 
+// int org=number;
+// int digit=0,rev=0;
+// while(number!=0)
+// {
+//    digit=number%10;
+//         rev =rev*10+digit;
+//         number=number/10;
+//         if(digit<=0)
+//         {
+//             cout<<0;
+//         }
 
-}
-cout<<rev;
+// }
+// cout<<rev;
 
-if(rev==org)
-{
-    cout<<"  pallindrome";
-}
-else
-{
- cout<<"  not a pallindrome";
-}
+// if(rev==org)
+// {
+//     cout<<"  pallindrome";
+// }
+// else
+// {
+//  cout<<"  not a pallindrome";
+// }
 
 
 
@@ -948,6 +948,101 @@ else
 // ***    r=c
 // ****
 // *****
+
+
+// for(int r=1;r<=5;++r)
+// {
+
+// for(int c=1;c<=9;++c)
+// {
+
+//     if(c>=r && c<=10-r)
+//     {
+//         cout<<"*";
+//     }
+//     else
+//     {
+//         cout<<" ";
+//     }
+// }
+// cout<<endl;
+
+// }
+
+
+
+
+
+
+// for(int r=1;r<=5;++r)
+// {
+//     for(int c=1;c<=19;++c)
+//     {
+//         if(c>=6-r && c<=4+r)
+//         {
+//             cout<<"*";
+//         }
+//         else
+//         {
+//             cout<<"-";
+//         }
+
+//         if(c>=10+r && c<=20-r)
+//         {
+//             cout<<"*";
+//         }
+//         else
+//         {
+//             cout<<"-";
+//         }
+
+//     }
+//     cout<<endl;
+
+// }
+
+
+int a=0;
+for(int r=1;r<=9;++r)
+{
+    (r<=5?a++:a--);
+for(int c=1; c<=9; ++c)
+{
+
+    if(c>=6-a && c<=4+a)
+    {
+        cout<<"*";
+    }
+else{
+    cout<<" ";
+}
+
+}
+cout<<endl;
+
+}
+
+
+
+
+char a='a';
+for(int r=1;r<=5;++r)
+{
+    for(int c=1;c<=5;++c)
+    {
+        if(c<=r)
+        {
+cout<<a++;
+        }
+        else
+        {
+cout<<" ";
+        }
+    }
+    cout<<endl;
+}
+
+
 
 
 
