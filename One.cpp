@@ -800,37 +800,37 @@ int main()
 // fibonachi
 
 
-// int ft=1;
-// int st=2;
-// int n=5;
-// int next=ft+st;
+int ft=1;
+int st=2;
+int n=5;
+int next=ft+st;
 
-// int i=1;
+int i=1;
 
-// while(i<=n)
-// {
+while(i<=n)
+{
 
-// if(i==1)
-// {
-//     cout<<ft<<endl;
-//        i++;
-//   continue;
+if(i==1)
+{
+    cout<<ft<<endl;
+       i++;
+  continue;
  
-// }
-// if(i==2)
-// {
-//     cout<<st<<endl;
+}
+if(i==2)
+{
+    cout<<st<<endl;
  
-//     i++;
-//     continue;
-// }
-// next=ft+st;
-// cout<<next<<endl;
-// ft=st;
-// st=next;
-// i++;
+    i++;
+    continue;
+}
+next=ft+st;
+cout<<next<<endl;
+ft=st;
+st=next;
+i++;
 
-// }
+}
 
 
 
@@ -842,11 +842,6 @@ int main()
 //    digit=number%10;
 //         rev =rev*10+digit;
 //         number=number/10;
-//         if(digit<=0)
-//         {
-//             cout<<0;
-//         }
-
 // }
 // cout<<rev;
 
