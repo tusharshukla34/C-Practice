@@ -172,12 +172,21 @@ int main(){
 // 
 
 
+// factor ka program
+
+int n=9;
+int sum=0;
+
+for(int i=1;i<n;i++)
+{
+    if(n%i==0)
+    {
+        cout<<i;
+    }
+}
 
 
-int=1
-fact=1
-n1
-for(i;n<=n1;++i)
-fact=i*fact
+// perfect number ka program
+
 
 }
