@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cmath>
 using namespace std;
 int main(){
 
@@ -174,19 +175,159 @@ int main(){
 
 // factor ka program
 
-int n=9;
-int sum=0;
+// int n=9;
+// int sum=0;
 
-for(int i=1;i<n;i++)
-{
-    if(n%i==0)
-    {
-        cout<<i;
-    }
-}
+// for(int i=1;i<n;i++)
+// {
+//     if(n%i==0)
+//     {
+//         cout<<i;
+//     }
+// }
 
 
 // perfect number ka program
+
+// int n1=28;
+// int fact=0;
+
+// for(int i=1;i<n1;++i)
+// {
+//     if(n1%i==0)
+//     {
+//         fact=fact+i;
+//     }
+// }
+//     if(fact==n1)
+//     {
+//         cout<<"its a perfect number";
+//     }
+//     else
+//     {
+//         cout<<"its not a perfect number";
+//     }
+
+
+// program of hcf
+
+// int n1=6,n2=10,hcf=1;
+
+// for(int i=1;i<n1 || i<n2;++i)
+// {
+//     if(n1%i==0 && n2%i==0)
+//     {
+//         hcf=i;
+//     }
+// }
+// cout<<hcf;
+
+
+
+// power
+
+// int n1=2,p=2,ans=1;
+
+// for(int i=1;i<=p;i++)
+// {
+//     ans=ans*n1;
+// }
+// cout<<ans;
+
+
+// ap
+
+// int ft=2,n=4,d=2,i=0,ap=0;
+
+// for(i;i<n;i++)
+// {
+//    ap= ft+i*d;
+//    cout<<ap;
+// }
+
+
+// gp
+
+
+// int ft=5,n=3,r=2,i=0,gp=0;
+
+// for(i;i<n;++i)
+// {
+//     gp=ft*pow(r,i);
+//     cout<<gp;
+// }
+
+// rev the number and find its palindrone or not
+
+
+// int digit=0,rev=0,num=121,org=num;
+
+// while(num!=0)
+// {
+//     digit=num%10;
+//     rev=rev*10+digit;
+//     num=num/10;
+// }
+// cout<<rev<<endl;
+// if(rev==org)
+// {
+//     cout<<"its a palindrone";
+// }
+// else{
+//     cout<<"its not a palindrone";
+// }
+
+
+// armstrong number to find
+
+
+// int digit=0,sum=0,num=153,org=num;
+
+// while(num!=0)
+// {
+//     digit=num%10;
+//     sum=sum+digit*digit*digit;
+//     num=num/10;
+    
+// }
+// if(sum==org)
+// {
+//     cout<<"its a armstrong";
+// }
+// else
+// {
+//     cout<<"its not a armstrong";
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
