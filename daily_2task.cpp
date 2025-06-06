@@ -364,8 +364,16 @@ int main(){
 // find power
 
 
+// int i=1,p=4,num=10,ans=1;
+// for(i;i<=p;++i)
+// {
+//     ans = ans*num;
+// }
+// cout<<ans;
 
 
+int i=1;
+for(i;)
 
 
 
