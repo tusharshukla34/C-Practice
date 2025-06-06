@@ -313,6 +313,61 @@ int main(){
 
 
 
+// finding the factor
+
+// int i=1,num=6;
+// for(i;i<=num;++i)
+// {
+//     if(num%i==0)
+//     {
+//          cout<<i;
+//     }
+   
+// }
+
+
+
+// finding hcf
+
+// int i=1,hcf=1,n1=6,n2=10;
+// for(i;i<n1||i<n2;++i)
+// {
+//     if(n1%i==0 && n2%i==0)
+//     {
+//         hcf=i;
+//     } 
+// }
+// cout<<hcf;
+
+
+// find perfect number
+
+// int  i=1,num=28,fact=0;
+
+// for(i;i<num;++i)
+// {
+//     if(num%i==0)
+//     {
+//         fact = i+ fact;
+//     }
+    
+// }
+// if(num==fact)
+//     {
+//        cout<<"its perfect";
+//     }
+//     else
+//     {
+//         cout<<"its not perfect";
+//     }
+
+// find power
+
+
+
+
+
+
 
 
 
